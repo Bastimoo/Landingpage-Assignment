@@ -1,0 +1,102 @@
+
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+
+.section1{
+    flex:1;
+    background-color: rgba(32, 32, 78, 0.801);
+    display:flex;
+    flex-direction: column;
+    color:white;
+}
+
+.header{
+    flex:1;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section2{
+    flex:1;
+    background-color: white;
+    display:flex;
+}
+
+
+.section3{
+    justify-content: center;
+    flex:1;
+    display:flex;
+    background-color: lightgrey;
+}
+
+
+.section4{
+    align-items: center;
+    justify-content: center;
+    flex:1;
+    display:flex;
+    background-color: white;
+}
+
+
+.footer{
+    flex:1;
+    background-color:  rgba(32, 32, 78, 0.801);
+    text-align: center;
+    color:white;
+}
+
+
+.card{
+    height: 50px; 
+    width: 50px; 
+    border: solid rgb(78, 121, 212);
+}
+
+
+.CTAbox{
+    display:flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(78, 121, 212);
+    color:white;
+    justify-content: space-between;
+    padding: 30px 50px;
+    gap:30px;
+    border-radius: 25px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+button{
+    background-color: rgb(78, 121, 212);
+    color:white;
+
+    border-radius: 5px;
+    text-align: center;
+}
+
+.CTAtext{
+    display:flex;
+    flex-direction: column;
+    padding:0px;
+    margin:0px;
+    gap:0px;
+
+}
+
+.CTAbutton{
+    align-self: center;
+    height:30px;
+    width:80px;
+    border: solid white 3px;
+}
